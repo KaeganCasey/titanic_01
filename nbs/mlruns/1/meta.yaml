@@ -1,0 +1,4 @@
+artifact_location: file:///Users/kaegan/Documents/data_science/machine_learning/mlflow_testing/clf/titanic/nbs/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Test_03-08

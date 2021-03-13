@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kaegan/Documents/data_science/machine_learning/mlflow_testing/clf/titanic/nbs/mlruns/1/da28c34660a24a97896db85578042ec4/artifacts
+end_time: 1615266488264
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: da28c34660a24a97896db85578042ec4
+run_uuid: da28c34660a24a97896db85578042ec4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1615266487888
+status: 3
+tags: []
+user_id: kaegan
