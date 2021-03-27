@@ -1,0 +1,14 @@
+name: Titanic
+
+conda_env: ../conda.yaml
+# Can have a docker_env instead of a conda_env, e.g.
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  main:
+    parameters:
+      n_estimators: {type: int, default: 100}
+      max_depth: {type: int, default: 6}
+      learning_rate: {type: float, default: 0.3}
+    command: "python core.py -r {n_estimators} {data_file}"

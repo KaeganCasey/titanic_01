@@ -1,0 +1,5 @@
+feature,importance
+Sex_female,0.73372966
+Pclass,0.13161527
+Deck_Unknown,0.13075651
+Deck_B,0.0038985088
