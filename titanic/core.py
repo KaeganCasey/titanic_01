@@ -39,11 +39,10 @@ TARGET = 'Survived'
 STATE = 9
 
 # Cell
-n_estimators = 100
-max_depth = 6
-learning_rate = 0.3
-#features = 'ALL'
-features = ['Sex_female', 'Sex_male']
+n_estimators = int(sys.argv[1]) if len(sys.argv) > 1 else 100
+max_depth = int(sys.argv[2]) if len(sys.argv) > 2 else 6
+learning_rate = float(sys.argv[3]) if len(sys.argv) > 3 else 0.3
+features = str(sys.argv[4]) if len(sys.argv) > 4 else 'ALL'
 
 # Cell
 if LOG_MLFLOW:
